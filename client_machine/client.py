@@ -53,10 +53,10 @@ print("TCP transfer connected. | Server: %s, Port: %d" %
 filename = input("Input file name: ")
 
 # check if file exists in current directory
-if path.exists(filename):
-    print("File already exists on local machine. Proceeding to open...")
-    time.sleep(2)
-    # write code to open file
+# if path.exists(filename):
+#     print("File already exists on local machine. Proceeding to open...")
+#     time.sleep(2)
+#     # TODO: write code to open file
 
 # send the file name to the server
 clientSocket.send(bytes(filename, "utf-8"))
