@@ -1,0 +1,10 @@
+Client: 
+-> Allow only requests for pdf files
+-> If file is present on same machine then open it from there 
+-> Rather than transfering the file from server and saving it in client, just fetch the file and open it 
+
+Server:
+-> Allow multiple clients to connect at once
+-> Make timestamp when files are accessed and store in a log file
+-> Should display number of currently connected clients 
+-> Should maintain a log of all connected clients
